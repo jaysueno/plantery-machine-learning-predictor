@@ -1,29 +1,36 @@
 # plantery-machine-learning-predictor
 ### Written by Jay Sueno
-_(list the languages and programs used)_
+_Python, Scikit, Machine Learning ALgorithms, Pandas, Hypertuning, Feature Reduction_
 
-(Summary of project)
+Outspace is pretty cool. It's vast and filled with stellar objects that tease the imagination.Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. It has recorded features of each, and classified them with labels. Essentially, is that object a candidate to be an "exoplanet"?
 
-## GitPage or wepage
+In this project, I've tested different Machine Learning models to see which one could predict if an object is in fact an exoplanet. Using supervised learning and focusing on classifcation type algorithms, I've chosen the best model and hypertuned it to return the highest level of accuracy.
+
+Here are the steps to choose the best fit model, and the findings.
+
+## Which Models To Test And Why
+
+## The Data And Which Features To Choose
+
+## Hypertuning
+
+## The Best Fit Model
 
 ## Files
 
-*
-*
+* Notebook 1 - Decision Tree
+* Notebook 2 - Random Forest
+* Notebook 3 - Naive Bayes
+* Notebook 4 - Neural Network
 
 ## About the Code
 
 *
 *
 
-## Deployment
-
-1.
-2.
-
 ### About the Data
 
-(reference the data with links if possible)
+The data comes from NASA's Keplar space telescope study found here: https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 
 ### To learn more about Jay Sueno visit his [LinkedIn Profile](https://www.linkedin.com/in/jaysueno)
 
