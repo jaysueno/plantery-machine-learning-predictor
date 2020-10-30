@@ -1,4 +1,4 @@
-# machine-learning-project
+# plantery-machine-learning-predictor
 ### Written by Jay Sueno
 _(list the languages and programs used)_
 
