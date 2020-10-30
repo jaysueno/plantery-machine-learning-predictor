@@ -2,6 +2,8 @@
 ### Written by Jay Sueno
 _Python, Scikit, Machine Learning ALgorithms, Pandas, Hypertuning, Feature Reduction_
 
+![exoplanets](images/exoplanets.jpg)
+
 Outspace is pretty cool. It's vast and filled with stellar objects that tease the imagination.Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. It has recorded features of each, and classified them with labels. Essentially, is that object a candidate to be an "exoplanet"?
 
 In this project, I've tested different Machine Learning models to see which one could predict if an object is in fact an exoplanet. Using supervised learning and focusing on classifcation type algorithms, I've chosen the best model and hypertuned it to return the highest level of accuracy.
