@@ -19,17 +19,25 @@ I created a [notebook](feature_selection.ipynb) to test different algorithms to 
 ['koi_fpflag_nt', 'koi_fpflag_ss', 'koi_fpflag_co', 'koi_fpflag_ec', 'koi_model_snr', 'koi_duration_err2']
 ```
 
+## Pre-processing
+
+The data must be cleaned and converted in order for it to be for the model to be trained and tested. This includes:
+* Dropping irrelevant columns 
+* Scaling features to be relative to each other so that values aren't way out there ```python MinMaxScalar() ```
+* Encoding the label data and one-hot encoder so that it is in binary form using functions: ```python LabelEncoder() and to_categorical() ```
+
 ## Hypertuning
 
 In order to further optimize our model, we used the GridSearch hyptertuning method. This method looks at specific parameters of the various ML alogrithmic models and tests which parameter settings will yield the highest accuracy. The outcomes are different for each model because the parameters are unique to each model.
 
 ## Machine Learning Alogrithm Appoaches
 
-### Approach 1 Decision Tree [notebook](ml_notebooks/model_1_decisiontree.ipynb) 
-### Approach 2 Random Forest [notebook](ml_notebooks/model_2_randomforest.ipynb)
-### Approach 3 Random Forest w/ [Feature Selector](ml_notebooks/feature_selection.ipynb) [notbook](ml_notebooks/model_3_randomforest_extratreeclassifier.h5)
-### Approach 4 SVM [notebook](ml_notebooks/model_4_svm.ipynb)
-### Approach 5 Neural Network [notebook](ml_notebooks/model_5_neuralnetwork.ipynb)
+### Approach 1 Decision Tree ([notebook](ml_notebooks/model_1_decisiontree.ipynb))
+This model utilized one decision tree based on features I randomly selected. The model is trained
+### Approach 2 Random Forest ([notebook](ml_notebooks/model_2_randomforest.ipynb))
+### Approach 3 Random Forest w/ [Feature Selector](ml_notebooks/feature_selection.ipynb) ([notebook](ml_notebooks/model_3_randomforest_extratreeclassifier.h5))
+### Approach 4 SVM ([notebook](ml_notebooks/model_4_svm.ipynb))
+### Approach 5 Neural Network ([notebook](ml_notebooks/model_5_neuralnetwork.ipynb))
 
 ## The Best Fit Model
 
