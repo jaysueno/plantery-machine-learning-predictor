@@ -74,13 +74,13 @@ A neural network is machine learning technology that looks to replicate the huma
 
 In the notebook I tested 2 neural networks: 4 layers w/ 2 hidden layers; and 3 layers with 1 hidden layer. Here are the outcomes:
 * 4 layers - test accuracy 87.8%
-* 3 layers - test accuracy 89.3%
+* __3 layers - test accuracy 89.3%__
 
 Here we find an interesting finding. More layers do not mean better accuracy. There'a 1.6% better accuracy rate for only 1 hidden layer versus 2. 
 
 ## The Best Fit Model
 
-In our exercise, we find that our tests have yielded that the most accurate model is the Neural Network with 1 hidden layer. Accuracy of 89.3% on the test data. 
+In our exercise, we find that our tests have yielded that the most accurate model is the __Neural Network__ with 1 hidden layer. __Accuracy of 89.3%__ on the test data. 
 
 Overall, we find that a nearly 90% accuracy rate for classifying planets makes our model a useful one. We have a high confidence that any future images captured by the Keplar telescope can use our model to classify if the object is a planet!
 
