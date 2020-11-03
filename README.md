@@ -25,18 +25,13 @@ In order to further optimize our model, we used the GridSearch hyptertuning meth
 
 ## Machine Learning Alogrithm Appoaches
 
-* Notebook 1 - Decision Tree 
-* Notebook 2 - Random Forest
-* Notebook 3 - Random Forest
-*
-* Notebook 4 - Neural Network
+### Approach 1 Decision Tree [notebook](ml_notebooks/model_1_decisiontree.ipynb) 
+### Approach 2 Random Forest [notebook](ml_notebooks/model_2_randomforest.ipynb)
+### Approach 3 Random Forest w/ [Feature Selector](ml_notebooks/feature_selection.ipynb) [notbook](ml_notebooks/model_3_randomforest_extratreeclassifier.h5)
+### Approach 4 SVM [notebook](ml_notebooks/model_4_svm.ipynb)
+### Approach 5 Neural Network [notebook](ml_notebooks/model_5_neuralnetwork.ipynb)
 
 ## The Best Fit Model
-
-## About the Code
-
-*
-*
 
 ### About the Data
 
