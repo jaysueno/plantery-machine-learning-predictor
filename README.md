@@ -84,6 +84,8 @@ In our exercise, we find that our tests have yielded that the most accurate mode
 
 Overall, we find that a nearly 90% accuracy rate for classifying planets makes our model a useful one. We have a high confidence that any future images captured by the Keplar telescope can use our model to classify if the object is a planet!
 
+You can find the trained model file here: [model_5_neuralnetwork.h5](model_5_neuralnetwork.h5)
+
 (An important note, in the other models it was more important to select proper features than to hypertune.)
 
 ### About the Data
