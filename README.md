@@ -10,20 +10,28 @@ In this project, I've tested different Machine Learning models to see which one 
 
 Here are the steps to choose the best fit model, and the findings.
 
-## Which Models To Test And Why
-
 ## The Data And Which Features To Choose
+
+The data set includes 1 column for the label or y-value - "koi_disposition". It includes 40 feature columns or x-values. Therefore, I wanted to test choosing features randomly versus using an algorithm to find optimal features. 
+
+I created a [notebook](feature_selection.ipynb) to test different algorithms to find the best features to use in the ML models. I decided to use the [Extra Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html) method and use the following features: 
+```python
+['koi_fpflag_nt', 'koi_fpflag_ss', 'koi_fpflag_co', 'koi_fpflag_ec', 'koi_model_snr', 'koi_duration_err2']
+```
 
 ## Hypertuning
 
-## The Best Fit Model
+In order to further optimize our model, we used the GridSearch hyptertuning method. This method looks at specific parameters of the various ML alogrithmic models and tests which parameter settings will yield the highest accuracy. The outcomes are different for each model because the parameters are unique to each model.
 
-## Files
+## Machine Learning Alogrithm Appoaches
 
-* Notebook 1 - Decision Tree
+* Notebook 1 - Decision Tree 
 * Notebook 2 - Random Forest
-* Notebook 3 - Naive Bayes
+* Notebook 3 - Random Forest
+*
 * Notebook 4 - Neural Network
+
+## The Best Fit Model
 
 ## About the Code
 
